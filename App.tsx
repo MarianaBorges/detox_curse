@@ -1,12 +1,16 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, LogBox } from 'react-native';
+import { MemberProvider } from './src/context/MemberContext'
+import Routes from './src/routes';
+
+if (process.env.TEST === 'detox') {
+  LogBox.ignoreAllLogs();
+}
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <MemberProvider>
+      <Routes />
+    </MemberProvider>
   );
 }
 

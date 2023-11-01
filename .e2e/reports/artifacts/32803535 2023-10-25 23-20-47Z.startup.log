@@ -1,0 +1,195 @@
+I/art     (20174): Late-enabling -Xcheck:jni
+W/System  (20174): ClassLoader referenced unknown path: /data/app/com.marianaborgesmt.detoxcurse2.test-1/lib/arm64
+I/MonitoringInstr(20174): newApplication called!
+D/WordingCode(20174): m_isEnable = false
+I/MonitoringInstr(20174): Instrumentation started!
+I/AndroidJUnitRunner(20174): onCreate Bundle[{debug=false, detoxServer=ws://localhost:55782, detoxSessionId=19e8bbcf-4fe8-50db-9cf0-08fd0f32ce01}]
+V/TestEventClient(20174): No service name argument was given (testDiscoveryService, testRunEventService or orchestratorService)
+D/AndroidJUnitRunner(20174): onStart is called.
+V/fb-UnpackingSoSource(20174): locked dso store /data/user/0/com.marianaborgesmt.detoxcurse2/lib-main
+I/fb-UnpackingSoSource(20174): dso store is up-to-date: /data/user/0/com.marianaborgesmt.detoxcurse2/lib-main
+V/fb-UnpackingSoSource(20174): releasing dso store lock for /data/user/0/com.marianaborgesmt.detoxcurse2/lib-main
+V/SoLoader(20174): Init SoLoader delegate
+W/unknown:ReactInstanceManagerBuilder(20174): You're not setting the JS Engine Resolution Algorithm. We'll try to load JSC first, and if it fails we'll fallback to Hermes
+V/SoLoader(20174): libjscexecutor.so not found on /data/data/com.marianaborgesmt.detoxcurse2/lib-main
+V/SoLoader(20174): libjscexecutor.so not found on /data/app/com.marianaborgesmt.detoxcurse2-1/lib/arm64
+V/SoLoader(20174): libjscexecutor.so not found on /system/lib64
+V/SoLoader(20174): libjscexecutor.so not found on /system/vendor/lib64
+E/SoLoader(20174): couldn't find DSO to load: libjscexecutor.so
+E/SoLoader(20174): 	SoSource 0: com.facebook.soloader.ApkSoSource[root = /data/data/com.marianaborgesmt.detoxcurse2/lib-main flags = 1]
+E/SoLoader(20174): 	SoSource 1: com.facebook.soloader.DirectorySoSource[root = /data/app/com.marianaborgesmt.detoxcurse2-1/lib/arm64 flags = 0]
+E/SoLoader(20174): 	SoSource 2: com.facebook.soloader.DirectorySoSource[root = /system/lib64 flags = 2]
+E/SoLoader(20174): 	SoSource 3: com.facebook.soloader.DirectorySoSource[root = /system/vendor/lib64 flags = 2]
+E/SoLoader(20174): 	Native lib dir: /data/app/com.marianaborgesmt.detoxcurse2-1/lib/arm64
+E/SoLoader(20174):  result: 0
+V/SoLoader(20174): libhermes.so not found on /data/data/com.marianaborgesmt.detoxcurse2/lib-main
+D/SoLoader(20174): libhermes.so found on /data/app/com.marianaborgesmt.detoxcurse2-1/lib/arm64
+D/SoLoader(20174): Not resolving dependencies for libhermes.so
+W/linker  (20174): /data/app/com.marianaborgesmt.detoxcurse2-1/lib/arm64/liblog.so: unused DT entry: type 0x70000001 arg 0x0
+W/linker  (20174): /data/app/com.marianaborgesmt.detoxcurse2-1/lib/arm64/libc++_shared.so: unused DT entry: type 0x70000001 arg 0x0
+V/SoLoader(20174): libhermes_executor.so not found on /data/data/com.marianaborgesmt.detoxcurse2/lib-main
+D/SoLoader(20174): libhermes_executor.so found on /data/app/com.marianaborgesmt.detoxcurse2-1/lib/arm64
+D/SoLoader(20174): Not resolving dependencies for libhermes_executor.so
+W/linker  (20174): /data/app/com.marianaborgesmt.detoxcurse2-1/lib/arm64/libruntimeexecutor.so: unused DT entry: type 0x70000001 arg 0x0
+V/SoLoader(20174): libfbjni.so not found on /data/data/com.marianaborgesmt.detoxcurse2/lib-main
+D/SoLoader(20174): libfbjni.so found on /data/app/com.marianaborgesmt.detoxcurse2-1/lib/arm64
+D/SoLoader(20174): Not resolving dependencies for libfbjni.so
+V/SoLoader(20174): libflipper.so not found on /data/data/com.marianaborgesmt.detoxcurse2/lib-main
+D/SoLoader(20174): libflipper.so found on /data/app/com.marianaborgesmt.detoxcurse2-1/lib/arm64
+D/SoLoader(20174): Not resolving dependencies for libflipper.so
+D/SmartContainerConfig(20174): Configured features : 
+I/nubialog(20174):  finished message:{ delay=368ms dispatching=-368ms sending=-368ms what=110 obj=android.app.ActivityThread$AppBindData target=android.app.ActivityThread$H }
+W/System.err(20174): SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+W/System.err(20174): SLF4J: Defaulting to no-operation (NOP) logger implementation
+W/System.err(20174): SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+D/TestRequestBuilder(20174): Using class path scanning to discover tests
+I/TestRequestBuilder(20174): Scanning classpath to find tests in paths [/data/app/com.marianaborgesmt.detoxcurse2.test-1/base.apk]
+V/SoLoader(20174): libreactnativejni.so not found on /data/data/com.marianaborgesmt.detoxcurse2/lib-main
+D/SoLoader(20174): libreactnativejni.so found on /data/app/com.marianaborgesmt.detoxcurse2-1/lib/arm64
+D/SoLoader(20174): Not resolving dependencies for libreactnativejni.so
+D/AndroidJUnitRunner(20174): Use the raw file system for managing file I/O.
+D/TestExecutor(20174): Adding listener androidx.test.internal.runner.listener.LogRunListener
+D/TestExecutor(20174): Adding listener androidx.test.internal.runner.listener.InstrumentationResultPrinter
+D/TestExecutor(20174): Adding listener androidx.test.internal.runner.listener.ActivityFinisherRunListener
+D/TestExecutor(20174): Adding listener androidx.test.internal.runner.listener.TraceRunListener
+I/TestRunner(20174): run started: 1 tests
+I/TestRunner(20174): started: runDetoxTests(com.marianaborgesmt.detoxcurse2.DetoxTest)
+D/EventInjectionStrategy(20174): Creating injection strategy with input manager.
+D/AppCompatDelegate(20174): Checking for metadata for AppLocalesMetadataHolderService : Service not found
+D/LifecycleMonitor(20174): Lifecycle status change: com.marianaborgesmt.detoxcurse2.MainActivity@8e8f239 in: PRE_ON_CREATE
+W/art     (20174): Before Android 4.1, method android.graphics.PorterDuffColorFilter androidx.vectordrawable.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+D/WordingCode(20174): m_isEnable = false
+D/LifecycleMonitor(20174): Lifecycle status change: com.marianaborgesmt.detoxcurse2.MainActivity@8e8f239 in: CREATED
+D/LifecycleMonitor(20174): Lifecycle status change: com.marianaborgesmt.detoxcurse2.MainActivity@8e8f239 in: STARTED
+D/LifecycleMonitor(20174): Lifecycle status change: com.marianaborgesmt.detoxcurse2.MainActivity@8e8f239 in: RESUMED
+D/OpenGLRenderer(20174): Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+W/unknown:ReactNative(20174): Packager connection already open, nooping.
+I/Adreno  (20174): QUALCOMM build                   : 721711f, Ica48926b88
+I/Adreno  (20174): Build Date                       : 12/20/16
+I/Adreno  (20174): OpenGL ES Shader Compiler Version: XE031.08.00.00
+I/Adreno  (20174): Local Branch                     : 
+I/Adreno  (20174): Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.5.3_RB1.06.00.01.211.063
+I/Adreno  (20174): Remote Branch                    : NONE
+I/Adreno  (20174): Reconstruct Branch               : NOTHING
+I/OpenGLRenderer(20174): Initialized EGL, version 1.4
+I/Detox   (20174): Detox server connection details: url=ws://localhost:55782, sessionId=19e8bbcf-4fe8-50db-9cf0-08fd0f32ce01
+I/DetoxDispatcher(20174): Handling action '_init' (ID #0)...
+I/Detox   (20174): Connecting to server...
+I/DetoxWSClient(20174): At connectToServer
+D/DetoxWSClient(20174): At onOpen
+I/DetoxWSClient(20174): Sending out action 'login' (ID #0)
+I/Detox   (20174): Connected to server!
+D/DetoxWSClient(20174): Received action 'loginSuccess' (ID #0, params={"testerConnected":true,"appConnected":true})
+D/DetoxWSClient(20174): Received action 'isReady' (ID #-1000, params={})
+I/ExpoModulesCore(20174): ✅ AppContext was initialized
+W/unknown:ReactContext(20174): initializeMessageQueueThreads() is called.
+W/unknown:ReactNative(20174): Packager connection already open, nooping.
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.facebook.react.views.traceupdateoverlay.TraceUpdateOverlayManager
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager$ReactSwitchShadowNode
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.facebook.react.views.modal.ModalHostShadowNode
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.facebook.react.views.unimplementedview.ReactUnimplementedViewManager
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.reactnativecommunity.picker.ReactDialogPickerManager
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.reactnativecommunity.picker.ReactPickerShadowNode
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.reactnativecommunity.picker.ReactDropdownPickerManager
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.swmansion.rnscreens.ScreenContainerViewManager
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.swmansion.rnscreens.ScreenViewManager
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.swmansion.rnscreens.ScreenStackViewManager
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderConfigViewManager
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderSubviewManager
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.swmansion.rnscreens.SearchBarManager
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaProviderManager
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewManager
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewShadowNode
+W/unknown:ReactContext(20174): initializeMessageQueueThreads() is called.
+V/SoLoader(20174): libyoga.so not found on /data/data/com.marianaborgesmt.detoxcurse2/lib-main
+D/SoLoader(20174): libyoga.so found on /data/app/com.marianaborgesmt.detoxcurse2-1/lib/arm64
+D/SoLoader(20174): Not resolving dependencies for libyoga.so
+D/DetoxRNLoading(20174): Listener-proxy method called: onReactContextInitialized
+I/DetoxRNLoading(20174): Got new RN-context async'ly through listener
+D/DetoxRNLoading(20174): Listener-proxy method called: equals
+I/DetoxRNIdleRes(20174): Setting up Espresso Idling Resources for React Native
+D/AsyncStorageIR(20174): Checking whether a custom IR for Async-Storage is required... (legacy=false)
+V/AsyncStorageExpoMigration(20174): No scoped database found
+D/AsyncStorageIR(20174): IR for Async-Storage is required! (legacy=false)
+D/AsyncStorageIR(20174): Checking whether a custom IR for Async-Storage is required... (legacy=true)
+D/DetoxRNHelpers(20174): Native RN module resolution (class com.facebook.react.modules.storage.AsyncStorageModule): no such class
+I/Detox   (20174): UIManagerModule is busy
+D/AsyncStorageIR(20174): Async-storage is busy!
+I/DetoxDispatcher(20174): Done with action '_init'
+I/DetoxDispatcher(20174): Handling action 'isReady' (ID #-1000)...
+V/SoLoader(20174): libreactnativeblob.so not found on /data/data/com.marianaborgesmt.detoxcurse2/lib-main
+D/SoLoader(20174): libreactnativeblob.so found on /data/app/com.marianaborgesmt.detoxcurse2-1/lib/arm64
+D/SoLoader(20174): Not resolving dependencies for libreactnativeblob.so
+I/WebViewFactory(20174): Loading com.google.android.webview version 106.0.5249.126 (code 524912603)
+W/linker  (20174): /data/app/com.google.android.webview-2/lib/arm64/libwebviewchromium.so: unused DT entry: type 0x70000001 arg 0x0
+W/ResourceType(20174): Found multiple library tables, ignoring...
+I/art     (20174): Rejecting re-init on previously-failed class java.lang.Class<k50>
+I/art     (20174): Rejecting re-init on previously-failed class java.lang.Class<k50>
+I/art     (20174): Rejecting re-init on previously-failed class java.lang.Class<k50>
+I/art     (20174): Rejecting re-init on previously-failed class java.lang.Class<k50>
+I/cr_WVCFactoryProvider(20174): Loaded version=106.0.5249.126 minSdkVersion=23 isBundle=true multiprocess=false packageId=2
+I/cr_LibraryLoader(20174): Successfully loaded native library
+I/cr_CachingUmaRecorder(20174): Flushed 8 samples from 8 histograms.
+V/SoLoader(20174): libexpo-modules-core.so not found on /data/data/com.marianaborgesmt.detoxcurse2/lib-main
+D/SoLoader(20174): libexpo-modules-core.so found on /data/app/com.marianaborgesmt.detoxcurse2-1/lib/arm64
+D/SoLoader(20174): Not resolving dependencies for libexpo-modules-core.so
+V/SoLoader(20174): libturbomodulejsijni.so not found on /data/data/com.marianaborgesmt.detoxcurse2/lib-main
+D/SoLoader(20174): libturbomodulejsijni.so found on /data/app/com.marianaborgesmt.detoxcurse2-1/lib/arm64
+D/SoLoader(20174): Not resolving dependencies for libturbomodulejsijni.so
+I/ExpoModulesCore(20174): ✅ JSI interop was installed
+V/Settings(20174): invalidate [secure]: current 6 != cached 0
+I/ExpoModulesCore(20174): ✅ Constants were exported
+W/UiControllerImpl(20174): Waiting for: DYNAMIC_TASKS_HAVE_IDLED for 100 iterations.
+W/UiControllerImpl(20174): Waiting for: DYNAMIC_TASKS_HAVE_IDLED for 200 iterations.
+W/UiControllerImpl(20174): Waiting for: DYNAMIC_TASKS_HAVE_IDLED for 300 iterations.
+W/unknown:ViewManagerPropertyUpdater(20174): Could not find generated setter for class com.swmansion.rnscreens.ScreensShadowNode
+W/IdlingPolicy(20174): These resources are not idle: [LooperIdlingResource-23617-mqt_js]
+I/nubialog(20174):  finished message:{ delay=5356ms dispatching=-5s356ms sending=-5s359ms callback=androidx.test.espresso.core.internal.deps.guava.util.concurrent.ListenableFutureTask target=android.os.Handler }
+I/Detox   (20174): Wait is over: App is now idle!
+I/DetoxWSClient(20174): Sending out action 'ready' (ID #-1000)
+I/DetoxDispatcher(20174): Done with action 'isReady'
+I/DetoxDispatcher(20174): Handling action 'loginSuccess' (ID #0)...
+I/DetoxDispatcher(20174): Done with action 'loginSuccess'
+I/DetoxDispatcher(20174): Handling action 'isReady' (ID #-1000)...
+D/DetoxWSClient(20174): Received action 'invoke' (ID #11, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["homeSectionText-counters",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+I/Detox   (20174): Wait is over: App is now idle!
+I/DetoxWSClient(20174): Sending out action 'ready' (ID #-1000)
+I/DetoxDispatcher(20174): Done with action 'isReady'
+I/DetoxDispatcher(20174): Handling action 'invoke' (ID #11)...
+D/Detox   (20174): class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [homeSectionText-counters, false]
+D/Detox   (20174): class com.wix.detox.espresso.DetoxViewActions, click, []
+D/Detox   (20174): class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "homeSectionText-counters" and view has effective visibility <VISIBLE>), com.wix.detox.espresso.action.RNClickAction@b14e02e]
+I/ViewInteraction(20174): Performing 'com.wix.detox.espresso.action.detoxsingletap@763b55c click' action on view (view.getTag() is "homeSectionText-counters" and view has effective visibility <VISIBLE>)
+V/Settings(20174): invalidate [system]: current 457 != cached 0
+I/Detox   (20174): AnimatedModule is busy.
+I/nubialog(20174):  finished message:{ delay=1044ms dispatching=-1s44ms sending=-1s44ms callback=androidx.test.espresso.core.internal.deps.guava.util.concurrent.ListenableFutureTask target=android.os.Handler }
+I/DetoxWSClient(20174): Sending out action 'invokeResult' (ID #11)
+I/DetoxDispatcher(20174): Done with action 'invoke'
+D/DetoxWSClient(20174): Received action 'invoke' (ID #12, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["countButton-tips",{"type":"boolean","value":false}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAction"},"method":"multiClick","args":[{"type":"Integer","value":1}]}}]})
+I/DetoxDispatcher(20174): Handling action 'invoke' (ID #12)...
+D/Detox   (20174): class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [countButton-tips, false]
+D/Detox   (20174): class com.wix.detox.espresso.DetoxAction, multiClick, [1]
+D/Detox   (20174): class com.wix.detox.espresso.EspressoDetox, perform, [(view.getTag() is "countButton-tips" and view has effective visibility <VISIBLE>), androidx.test.espresso.action.GeneralClickAction@643d8dd]
+I/ViewInteraction(20174): Performing 'com.wix.detox.espresso.action.detoxmultitap@ee4dc52 click' action on view (view.getTag() is "countButton-tips" and view has effective visibility <

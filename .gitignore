@@ -3,6 +3,10 @@
 # dependencies
 node_modules/
 
+# E2E
+e2e/reports/
+e2e/.tmp/
+
 # Expo
 .expo/
 dist/
@@ -15,6 +19,8 @@ web-build/
 *.p12
 *.key
 *.mobileprovision
+
+/android/
 
 # Metro
 .metro-health-check*
